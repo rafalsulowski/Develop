@@ -1,0 +1,4 @@
+To play this game:
+1. Run rafalsulowski2b.msi priogram
+2. To main directory of program (with GRA.cpp file) copy font.ttf file
+3. It'a all, have fun ang good luck!
