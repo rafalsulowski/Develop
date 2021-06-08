@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" style="-fx-background-color: rgb(220,220,220);" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <VBox alignment="TOP_CENTER" prefWidth="250.0" spacing="15.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <children>
+            <Label alignment="CENTER" lineSpacing="2.0" text="Wprowadź model samochodu" textAlignment="CENTER" textFill="LIMEGREEN">
+               <font>
+                  <Font name="Bell MT Bold" size="29.0" />
+               </font></Label>
+            <TextField fx:id="TFmodelOfCar" alignment="CENTER" onMouseClicked="#hidePromptText">
+               <font>
+                  <Font name="Bell MT" size="15.0" />
+               </font></TextField>
+            <Button fx:id="Bdownload" alignment="CENTER" mnemonicParsing="false" onAction="#downloadLinks" prefWidth="125.0" style="-fx-background-color: rgb(50,205,50);" styleClass="standardButton" stylesheets="@Style.css" text="Pobierz" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Bell MT Bold" size="17.0" />
+               </font></Button>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" maxWidth="500.0" spacing="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="160.0">
+         <children>
+            <Hyperlink fx:id="HLlink1" text="Hyperlink" />
+            <Hyperlink fx:id="HLlink2" text="Hyperlink" />
+            <Hyperlink fx:id="HLlink3" text="Hyperlink" />
+            <Hyperlink fx:id="HLlink4" text="Hyperlink" />
+            <Hyperlink fx:id="HLlink5" text="Hyperlink" />
+            <Hyperlink fx:id="HLlink6" text="Hyperlink" />
+            <Hyperlink fx:id="HLlink7" text="Hyperlink" />
+            <Hyperlink fx:id="HLlink8" text="Hyperlink" />
+            <Hyperlink fx:id="HLlink9" text="Hyperlink" />
+            <Hyperlink fx:id="HLlink10" text="Hyperlink" />
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" mouseTransparent="true" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="65.0">
+         <children>
+            <Label fx:id="LPromptText" alignment="CENTER" mouseTransparent="true" style="-fx-background-color: white;" text="wpisz model" textAlignment="CENTER" textFill="#32fa32">
+               <font>
+                  <Font name="Bell MT" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
