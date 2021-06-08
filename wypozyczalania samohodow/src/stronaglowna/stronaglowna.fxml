@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="400.0" style="-fx-background-color: PINK;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="stronaglowna.Controllerglowna">
+   <children>
+      <Label alignment="CENTER" prefHeight="100.0" prefWidth="400.0" style="-fx-background-color: RED;" text="Wypożyczalnia       Samochodów" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Arial" size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="loginBu" layoutX="337.0" layoutY="25.0" mnemonicParsing="false" onAction="#onActionloginBu" prefHeight="25.0" prefWidth="49.0" style="-fx-background-color: BLUE;" text="Log in" textFill="WHITE" />
+      <Button fx:id="registerBu" layoutX="326.0" layoutY="61.0" mnemonicParsing="false" onAction="#onActionregisterBu" style="-fx-background-color: GREEN;" text="Register" textFill="WHITE" />
+      <Button fx:id="stronaglownaBu" layoutY="100.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="132.0" style="-fx-background-color: LightCoral;" text="Strona Główna" />
+      <Button fx:id="kontaktBu" layoutX="134.0" layoutY="100.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="132.0" style="-fx-background-color: LightCoral;" text="Kontakt" />
+      <Button fx:id="promocjeBu" layoutX="268.0" layoutY="100.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="132.0" style="-fx-background-color: LightCoral;" text="Promocje" />
+      <ScrollPane layoutY="160.0" prefHeight="540.0" prefWidth="400.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="670.0" prefWidth="385.0">
+               <children>
+                  <Pane prefHeight="134.0" prefWidth="385.0" style="-fx-background-color: pink;">
+                     <children>
+                        <ImageView fx:id="image" fitHeight="134.0" fitWidth="154.0" pickOnBounds="true" preserveRatio="true" />
+                        <Button layoutX="321.0" layoutY="55.0" mnemonicParsing="false" style="-fx-background-color: ORANGE;" text="Rezerwuj" />
+                        <Label fx:id="parametryauta" layoutX="154.0" prefHeight="134.0" prefWidth="167.0" />
+                     </children>
+                  </Pane>
+                  <Pane layoutY="134.0" prefHeight="134.0" prefWidth="385.0" style="-fx-background-color: pink;">
+                     <children>
+                        <ImageView fx:id="image1" fitHeight="134.0" fitWidth="154.0" pickOnBounds="true" preserveRatio="true" />
+                        <Button layoutX="321.0" layoutY="55.0" mnemonicParsing="false" style="-fx-background-color: ORANGE;" text="Rezerwuj" />
+                        <Label fx:id="parametryauta1" layoutX="154.0" prefHeight="134.0" prefWidth="167.0" />
+                     </children>
+                  </Pane>
+                  <Pane layoutY="268.0" prefHeight="134.0" prefWidth="385.0" style="-fx-background-color: pink;">
+                     <children>
+                        <ImageView fx:id="image11" fitHeight="134.0" fitWidth="154.0" pickOnBounds="true" preserveRatio="true" />
+                        <Button layoutX="321.0" layoutY="55.0" mnemonicParsing="false" style="-fx-background-color: ORANGE;" text="Rezerwuj" />
+                        <Label fx:id="parametryauta11" layoutX="154.0" prefHeight="134.0" prefWidth="167.0" />
+                     </children>
+                  </Pane>
+                  <Pane layoutY="402.0" prefHeight="134.0" prefWidth="385.0" style="-fx-background-color: pink;">
+                     <children>
+                        <ImageView fx:id="image111" fitHeight="134.0" fitWidth="154.0" pickOnBounds="true" preserveRatio="true" />
+                        <Button layoutX="321.0" layoutY="55.0" mnemonicParsing="false" style="-fx-background-color: ORANGE;" text="Rezerwuj" />
+                        <Label fx:id="parametryauta111" layoutX="154.0" prefHeight="134.0" prefWidth="167.0" />
+                     </children>
+                  </Pane>
+                  <Pane layoutY="536.0" prefHeight="134.0" prefWidth="385.0" style="-fx-background-color: pink;">
+                     <children>
+                        <ImageView fx:id="image1111" fitHeight="134.0" fitWidth="154.0" pickOnBounds="true" preserveRatio="true" />
+                        <Button layoutX="321.0" layoutY="55.0" mnemonicParsing="false" style="-fx-background-color: ORANGE;" text="Rezerwuj" />
+                        <Label fx:id="parametryauta1111" alignment="CENTER" layoutX="154.0" prefHeight="134.0" prefWidth="167.0" wrapText="true" />
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</Pane>
